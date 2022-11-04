@@ -1,0 +1,167 @@
+
+/* Navbar */
+
+#navbar{
+    /* border:1px solid red; */
+    height:70px;
+    display:flex;
+    justify-content: space-around;
+}
+#leftpart,#rightpart{
+    /* border:1px solid black; */
+    height:70px;
+    width:30%;
+}
+#leftpart{
+    display:flex;
+    
+    /* border:1px solid blue; */
+}
+#leftpart div{
+    width:50%;
+    line-height: 0%;
+    
+}
+#leftpart img{
+    padding-top: 15px;
+    display:flex;
+    height:45px;
+}
+#bolt{
+    height:4px;
+    color:yellow;
+}
+
+#pin{
+    cursor: pointer;
+}
+
+#rightpart{
+    display:flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+#rightpart>p,a{
+   text-decoration: none;
+}
+#rightpart>p>a:hover{
+    border-bottom: dashed;
+}
+
+/* quicklink */
+
+#quicklink{
+    display:flex;
+    gap:30px;
+    padding-left:150px;
+    background-color:#30363c;
+    color:white;
+    margin-bottom: 35px;
+}
+#quicklink>p>a{
+    cursor:pointer;
+    text-decoration: none;
+    color:white;
+
+}
+#quicklink>p>a:hover{
+    border-bottom: dashed;
+}
+
+
+/* newquicklink */
+
+#newquicklink{
+    display:flex;
+    gap:40px;
+    padding-left:450px;
+    background-color:#eef4ff;
+    color:white;
+    margin-bottom: 35px;
+    
+}
+#newquicklink>p>a{
+    cursor:pointer;
+    text-decoration: none;
+    color:black;
+    
+
+}
+#newquicklink>p>a:hover{
+    border-bottom: dashed;
+}
+
+
+/* footer */
+
+#footer{
+    /* border:1px solid red; */
+    width:100%;
+    height:700px;
+    background-color:  #eef4ff;
+
+}
+
+#innerfooter{
+    /* border:1px solid red; */
+    width:100%;
+    height:560px;
+    display:flex;
+    padding-left:130px;
+    box-sizing: border-box;
+    margin-top: 80px;
+    
+}
+#innerfooter>div{
+    /* border:1px solid green; */
+    width:24%;
+    height:505px;
+    margin-top: 35px;
+
+}
+#innerfooter>div p{
+    line-height:.8em
+    
+}
+#innerfooter>div>p{
+    cursor: pointer;
+}
+
+
+#sociallogo>a>i{
+    height:50px;
+    width:50px;
+    cursor: pointer;
+    text-decoration: none;
+    color:black;
+}
+#footerbottom{
+    display:flex;
+    /* border:1px solid red; */
+    width:90%;
+    height:70px;
+    margin:auto;
+}
+#footerbottom>div{
+    display:flex;
+    /* border:1px solid green; */
+    width:50%;
+}
+#footerbottom>div>img{
+    height:25px;
+    width:40px;
+    padding-left: 20px;
+    padding-top: 10px;
+    
+}
+#footerbottom>div p{
+    margin-left: 300px;
+}
+#botpee{
+    margin-left: 95px;
+    font-size:large;
+    font-weight: bold;
+}
+

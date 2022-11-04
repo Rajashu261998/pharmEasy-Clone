@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3v8NVtq7mh686YyTVf8OPZm7fLxIhlYi1SAsy-_iuhEzKFZJCAiFJTU9BcJ9XwZdXssc&usqp=CAU">
+    <title>Pharm Easy</title>
+    <script src="https://kit.fontawesome.com/4dbaa63c16.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Styles/index.css">
+    <link rel="stylesheet" href="./Styles/navbar.css">
+       
+</head>
+
+<body>
+
+    <!-- navbar -->
+    
+    <div id="navbar"></div>
+
+    <!-- quicklink -->
+
+    <div id="quicklink"></div>
+
+    <!-- Home Page-->
+
+    <h2 id="htwo">What are you looking for?</h2>
+
+    <div id="inputdiv"><i class="fa-solid fa-magnifying-glass"></i>
+        <input id="input" placeholder="Search for medicines/healthcare products" />
+        <button id="search">Search</button>
+    </div>
+
+    <div id="upload">
+        <p>Order medicine with prescription.</p>
+        <p id="uploadgreen">UPLOAD NOW <i class="fa-solid fa-angle-right"></i></p>
+    </div>
+
+    <div class="first_box">
+        <h1 class="prodhead">Discover Our Offerings</h1>
+
+        <div class="first_box_slide_div">
+            <div class="slider" onclick=location.href="search.html"></div>
+            <div  class="lArrow abs hd hdLarr">
+                <span class="fa-solid fa-chevron-left "></span>
+            </div>
+            <div  class="rArrow abs hd hdRarr">
+                <span class="fa-solid fa-chevron-right "></span>
+            </div>
+        </div> 
+
+    </div>
+
+    <div class="content">
+        <div class="interval_slide_bar_div">
+            <div class="sliding_window"></div>
+            <div  class="lArrow abs" id="lArro">
+                <span class="fa-solid fa-chevron-left "></span>
+            </div>
+            <div  class="rArrow abs" id="rArro">
+                <span class="fa-solid fa-chevron-right "></span>
+            </div> 
+        </div>        
+    </div>
+
+    <h1 class="prodhead">Offers Just for You</h1>
+    <div id="justoffer">
+        <div>
+           <img src="https://cms-contents.pharmeasy.in/offer/99a287decc6-FLAT_30OFF.jpg?dim=1440x0">
+           <p class="pee">Flat 30% off + FREE 3 months plus Membership</p>
+        </div>
+        <div>
+            <img src="https://cms-contents.pharmeasy.in/offer/99a287decc6-FLAT_30OFF.jpg?dim=1440x0">
+           <p class="pee">Flat 20% off + 20% cashback on your 1st medicine order</p>
+        </div>
+        <div id="lockdiv">
+            <p id="lock">Log in to view more offers</p>
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <div id="footer"></div>
+
+
+</body>
+</html>
+
+<script src="./Scripts/index.js" type="module"></script>

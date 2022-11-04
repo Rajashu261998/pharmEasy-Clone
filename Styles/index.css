@@ -1,0 +1,234 @@
+
+
+/* Home Page */
+
+#htwo{
+    text-align: center;
+}
+#inputdiv{
+    /* border:1px solid red; */
+    margin:auto;
+    width:36%;
+    padding-left: 25px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#input{
+    width:75%;
+    height:50px;
+    border:none; 
+}
+#input:hover{
+    cursor: pointer;
+    overflow: none;
+}
+#search{
+    height:48px;
+    width:105px;
+    color:white;
+    background-color: teal;
+    border:none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#upload{
+    display:flex;
+    gap:10px;
+    background-color: #f2f9f7;
+    margin-top: 15px;
+    padding-left: 550px;
+}
+#uploadgreen{
+    color:green;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Home Page Started*/
+
+/* discover div started */
+
+.prodhead{
+    margin-left:150px;
+}
+
+.first_box{
+    position: relative;
+}
+
+.first_box_slide_div{
+    /* border: 1px solid black; */
+    display: flex;
+    height: 220px;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    margin-bottom: 50px;
+    padding-left: 5px;
+}
+
+ .slider{
+    display: flex;  
+}
+
+.slider,container{
+    gap:30px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    
+}
+.slider,container,img{
+    height:140px;
+    width:180px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.sliding_div{
+    /* border: 1px solid green; */
+    height: 210px;
+    box-sizing: border-box;
+    line-height:.5em;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.sliding_div:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.first_box:hover .abs{
+    visibility: visible; 
+}
+
+.typeh3{
+    text-align: center;
+    color:#4a4f54;
+}
+.typeh3+p{
+    color:red;
+}
+
+.lArrow{
+    margin-left: 0px;
+    height: 28px;
+    width: 28px;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rArrow{
+    right: 0;
+    margin-right: 0px;
+    height: 35px;
+    width: 35px;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.abs{
+    background-color: rgba(0,0,0,.5);
+     position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    border-color: transparent;
+    visibility: hidden;
+     
+ }
+ .abs span{
+     font-size: 14px;
+     color: white;
+     line-height: 40px;
+     
+ }
+ .abs:hover{
+     background-color: rgba(0, 0, 0, 0.8);
+ 
+ }
+
+/* Interval div Started */
+
+ .interval_slide_bar_div{
+    /* border: 1px solid green; */
+    width: 80%;
+    height: 220px;
+    margin: auto;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-bottom: 60px;
+}
+.sliding_window{
+   
+    /* width: 1263px; */
+    /* border: 1px solid red; */
+    height: 100%;
+    gap:25px;
+    margin: auto;
+    display: flex;
+    overflow: visible;
+    box-sizing: border-box;
+}
+.top_img{
+    width:40%;
+    height: 220px;
+    overflow: visible;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.content:hover .abs{
+    visibility: visible;
+   
+}
+.content{
+    position: relative;
+}
+#justoffer{
+    /* border:1px solid red; */
+    width:70%;
+    height:70px;
+    margin-left:150px;
+    display:flex;
+    gap:25px;
+    margin-bottom: 60px;
+    
+}
+#justoffer>div{
+    /* border:1px solid green; */
+    height:100%;
+    width:32%;
+    box-sizing: border-box;
+    display:flex;
+    gap:15px;
+    border-radius: 5px;    
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+#justoffer>div:hover{
+    /* box-shadow: azure; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+#justoffer>div img{
+    height:50px;
+    width:50px;
+    border-radius: 5px;   
+    margin:auto;
+    margin-left: 10px;
+}
+#lockdiv{
+    background-color: #cafffc;
+}
+#lock{
+    margin:auto;
+    
+}
+
